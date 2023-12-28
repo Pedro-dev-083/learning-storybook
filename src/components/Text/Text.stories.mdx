@@ -1,0 +1,22 @@
+import { Meta, Canvas, Story, ArgsTable } from "@storybook/blocks";
+import Text from './Text';
+
+<Meta title="Components/Text" component={Text}/>
+
+# Text
+
+Este é o componente de Texto padrão utilizado no projeto como um todo, podendo 
+passar a tag especifica e o texto para renderizar-lo
+
+<ArgsTable of={Text}/>
+
+## Text example
+
+<Canvas>
+  <Story 
+    name="Text Example"
+    args={{children: 'Texto do Text'}}
+  >
+    {(args) => <Text {...args}/>}
+  </Story>
+</Canvas>
