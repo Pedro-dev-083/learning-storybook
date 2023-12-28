@@ -1,0 +1,23 @@
+{
+  "name": "learning-storybook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Pedro-dev-083/learning-storybook.git",
+  "author": "Pedro-dev-083 <pedroazevedo83@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "next start",
+    "dev": "next dev",
+    "build": "next build"
+  },
+  "dependencies": {
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.10.5",
+    "@types/react": "18.2.46",
+    "typescript": "5.3.3"
+  }
+}
