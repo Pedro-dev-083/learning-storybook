@@ -14,5 +14,6 @@ export default function Text({children, Component, ...props}: TextProps) {
 }
 
 Text.defaultProps = {
-  disabled: false
+  disabled: false,
+  Component: 'p'
 }
